@@ -1,17 +1,77 @@
-
-#logomarca{
-	height: 30%;
-    width: 30%;
-}
-
-a:before {
-  content: " ";
-  width: 20px;
-  background: url(img/globo.png) no-repeat;
-}
 body {
-	background-color: #e1e0eb;
+  	background-color: #e1e0eb;
 	margin-left: 20%;
 	margin-right: 20%;
 	font-family: "Times New Roman", Times, serif;
+}
+
+img {
+	display: block;
+	margin-top:5px;
+	margin-bottom:5px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+img#logomarca {  	
+  	max-width: 180px;
+  	width: auto;
+  	height: auto;
+}
+
+img.texto{
+  	white-space: nowrap;
+}
+
+iframe {
+	display: block;
+	margin-top:5px;
+	margin-bottom:5px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	white-space: nowrap;
+}
+
+h1, h2 {
+	color: #000066;
+}
+
+p {
+	text-align: justify;
+}
+
+strong {
+	color: #000066;
+	font-size: 20px;
+	background-color: #4d4dff;
+}
+
+em.nota {
+	opacity: 0.8;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #00e600;
+}
+
+a:visited {
+	color: #cccc00;
+}
+
+a:hover {
+	color: #004d00;
+}
+
+a:active {
+	color: #9400D3;
+}
+
+a[href*="http://"] {
+	background-image: url("../img/globo.png");
+  	background-repeat: no-repeat;
+  	padding-left: 20px;
 }
